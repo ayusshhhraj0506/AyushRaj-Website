@@ -59,8 +59,11 @@ const ShowcaseSection = () => {
             </div>
             <div className="text-content">
               <h2>
-                A Showcase of 50 Interactive Frontend Projects Built Using
-                JavaScript and CSS
+                A Showcase of{' '}
+                <span className=" text-blue-400">
+                  50 Interactive Frontend Projects
+                </span>{' '}
+                Built Using JavaScript and CSS
               </h2>
               <p className="text-white-50 md:text-xl">
                 This website contains 50 mini projects, including buttons,
@@ -81,7 +84,12 @@ const ShowcaseSection = () => {
                   <img src="/images/project2.png" alt="project" />
                 </a>
               </div>
-              <h2>MacBook M4 Landing Page Clone</h2>
+              <h2>
+                <span className="bg-linear-to-r from-blue-500 via-purple-500 to-orange-400 bg-clip-text text-transparent">
+                  MacBook M4
+                </span>{' '}
+                Landing Page Clone
+              </h2>
             </div>
             <div className="project" ref={project3Ref}>
               <div className="image-wrapper bg-[#ffe7eb]">
@@ -93,7 +101,9 @@ const ShowcaseSection = () => {
                   <img src="/images/project3.png" alt="project" />
                 </a>
               </div>
-              <h2>Language Translator App</h2>
+              <h2>
+                <span className="text-yellow-600">Language Translator</span> App
+              </h2>
             </div>
           </div>
         </div>
@@ -113,8 +123,10 @@ const ShowcaseSection = () => {
             </div>
             <div className="text-content">
               <h2>
-                A Basic Frontend Code Editor with Real Time HTML, CSS, and
-                JavaScript Output.
+                A Basic <span className="text-red-500"> Frontend </span>{' '}
+                <span className="text-green-500">Code</span>{' '}
+                <span className="text-indigo-500">Editor</span> with Real Time
+                HTML, CSS, and JavaScript Output.
               </h2>
               <p className="text-white-50 md:text-xl">
                 A live coding playground for experimenting with HTML, CSS, and
@@ -134,7 +146,12 @@ const ShowcaseSection = () => {
                   <img src="/images/project5.png" alt="project5" />
                 </a>
               </div>
-              <h2>Interior Designing Studio Homepage</h2>
+              <h2>
+                <span className="text-orange-600">
+                  Interior Designing Studio
+                </span>{' '}
+                Homepage
+              </h2>
             </div>
             <div className="project" ref={project3Ref}>
               <div className="image-wrapper bg-[#fffbce]">
@@ -146,7 +163,10 @@ const ShowcaseSection = () => {
                   <img src="/images/project6.png" alt="project" />
                 </a>
               </div>
-              <h2>Startup Company Website Design</h2>
+              <h2>
+                <span className="text-purple-400">Startup Company</span> Website
+                Design
+              </h2>
             </div>
           </div>
         </div>

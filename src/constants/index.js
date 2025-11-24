@@ -33,9 +33,9 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 2, suffix: '+', label: 'Dedicated Study Time' },
-  { value: 50, suffix: '+', label: 'Personal Projects/Labs' },
-  { value: 8, suffix: '+', label: 'Core Tech Skills' },
+  { value: 200, suffix: '+ hrs', label: 'Training Hours Completed' },
+  { value: 50, suffix: '+', label: 'Personal Projects' },
+  { value: 10, suffix: '+', label: 'Technologies Used / Skills' },
   { value: 90, suffix: '%', label: 'Test Coverage/Quality' },
 ];
 
@@ -95,23 +95,23 @@ const abilities = [
 
 const techStackImgs = [
   {
-    name: 'React Developer',
+    name: 'React.js',
     imgPath: '/images/logos/react.png',
   },
   {
-    name: 'Python Developer',
-    imgPath: '/images/logos/python.svg',
+    name: 'TailwindCSS',
+    imgPath: '/images/logos/TailwindCSS.png',
   },
   {
-    name: 'Backend Developer',
-    imgPath: '/images/logos/node.png',
+    name: 'Next.js',
+    imgPath: '/images/logos/next-js.svg',
   },
   {
-    name: 'Interactive Developer',
-    imgPath: '/images/logos/three.png',
+    name: 'Figma',
+    imgPath: '/images/logos/Figma.png',
   },
   {
-    name: 'Project Manager',
+    name: 'Git / Github',
     imgPath: '/images/logos/git.svg',
   },
 ];
@@ -162,7 +162,7 @@ const expCards = [
       'Spearheaded the complete, end-to-end development of the institutional website from scratch to deliver a user-centered and highly scannable online platform.',
       'Engineered and integrated a secure Firebase backend for authentication and user data management that reduced the reported login errors by 95% while guaranteeing high-availability services.',
       'Delivered a modern, highly performant user experience using a cutting-edge stack including ReactJS, Tailwind CSS, and implementing engaging animations with GSAP for a polished interface.',
-      'Have a Look: https://connect2roots.com/',
+      'Have a Look: https://connect2-roots-academy.vercel.app/',
     ],
   },
   // {
