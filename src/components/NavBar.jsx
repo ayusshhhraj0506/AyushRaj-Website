@@ -35,7 +35,7 @@ const NavBar = () => {
         </nav>
         <a
           className="contact-btn group"
-          href="/ayushrajCV1.pdf"
+          href="/ayushrajCV.pdf"
           download="ayushrajCV"
         >
           <div className="inner">
