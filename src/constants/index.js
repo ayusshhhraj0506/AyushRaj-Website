@@ -157,7 +157,7 @@ const expCards = [
     logoPath: '/images/logo1.png',
     company: 'Connect2Roots Academy',
     title: 'Frontend Web Developer',
-    date: 'August 2025 - Present',
+    date: 'June 2025 - Present',
     responsibilities: [
       'Spearheaded the complete, end-to-end development of the institutional website from scratch to deliver a user-centered and highly scannable online platform.',
       'Engineered and integrated a secure Firebase backend for authentication and user data management that reduced the reported login errors by 95% while guaranteeing high-availability services.',
