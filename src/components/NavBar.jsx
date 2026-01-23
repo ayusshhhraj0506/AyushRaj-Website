@@ -87,7 +87,7 @@ const NavBar = () => {
           </nav>
           <a
             className="contact-btn group"
-            href="/ayushrajCV.pdf"
+            href="/ayushraj-resume-january.pdf"
             download="ayushrajCV"
           >
             <div className="inner">
